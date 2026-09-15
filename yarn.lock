@@ -2673,6 +2673,36 @@
   dependencies:
     tslib "^2.4.0"
 
+"@turbo/darwin-64@2.10.13":
+  version "2.10.13"
+  resolved "https://registry.yarnpkg.com/@turbo/darwin-64/-/darwin-64-2.10.13.tgz#3fdcd6a717cba1c0eda490b45d3c9a5d4760f153"
+  integrity sha512-m5DBcpkxmcKpEJHHFUfqf9GLUjSmw3cDnBJM9nghPW3kjCNb5OyNKmzG7/yT5x5AwzOO+HMwKN+UI4iVKL87YA==
+
+"@turbo/darwin-arm64@2.10.13":
+  version "2.10.13"
+  resolved "https://registry.yarnpkg.com/@turbo/darwin-arm64/-/darwin-arm64-2.10.13.tgz#7367bb054e2d8ec8af221e95c674ccf448c5adb5"
+  integrity sha512-vfKPvSuoY8BJGj8M8yN+a7aq1g+CejbEacDSDlJLDkSbPN3J/U1DbYAmPG8Ype5XvImI0SgfvUhIorNnFj67zw==
+
+"@turbo/linux-64@2.10.13":
+  version "2.10.13"
+  resolved "https://registry.yarnpkg.com/@turbo/linux-64/-/linux-64-2.10.13.tgz#85b63280305104742988583851150733f0154241"
+  integrity sha512-Zp0N5M6j9iEjJtFLTA2L+52TLuYy0VbXT3zLZzfMeqqdKSUJ7pDo2pA1NhqjoQcF2dIsktZ8xZRW3pGI6T81fw==
+
+"@turbo/linux-arm64@2.10.13":
+  version "2.10.13"
+  resolved "https://registry.yarnpkg.com/@turbo/linux-arm64/-/linux-arm64-2.10.13.tgz#17b1fecb543323b7c36c197f1e4686ae85e87b4e"
+  integrity sha512-M8XcfWdS2D4EP3wzd5ehUyCANucMIOsRE6gZuV0Mr2NIn+FpsUjXFCh7r9HY7GnNcjXH4tUnT76OsCDg2c0Fng==
+
+"@turbo/windows-64@2.10.13":
+  version "2.10.13"
+  resolved "https://registry.yarnpkg.com/@turbo/windows-64/-/windows-64-2.10.13.tgz#df854d1c26d4589f0164f27b7fac573c953210c7"
+  integrity sha512-QFd3KBMpBBCc31TbxMnxgdBivie8lxJXV8EqmanH8fg8l2e1BdCLWpZJbxk48VNvcF4LHUnwO0FJOq+veKN1cw==
+
+"@turbo/windows-arm64@2.10.13":
+  version "2.10.13"
+  resolved "https://registry.yarnpkg.com/@turbo/windows-arm64/-/windows-arm64-2.10.13.tgz#559e3b6c2cab2bdedb10c34346985e555cbba73d"
+  integrity sha512-rM+cFO1P8iAHXdasOdMyK9nDk0UGII7VEFLIA8+jwv/+rh48pnVBbF2OSjJDBOw57pxNLIOEDA0JyKcarTBcIw==
+
 "@types/graceful-fs@^4.1.2":
   version "4.1.6"
   resolved "https://registry.yarnpkg.com/@types/graceful-fs/-/graceful-fs-4.1.6.tgz#e14b2576a1c25026b7f02ede1de3b84c3a1efeae"
@@ -8421,47 +8451,17 @@ tsup@^6.0.1:
     sucrase "^3.20.3"
     tree-kill "^1.2.2"
 
-turbo-darwin-64@1.9.6:
-  version "1.9.6"
-  resolved "https://registry.yarnpkg.com/turbo-darwin-64/-/turbo-darwin-64-1.9.6.tgz#fb391943b8b4c5e72cd6aaebc57d177a26b5d98e"
-  integrity sha512-9jmxyCAcPrJiPD/EmtK2tObrPGblmyORCgNgtcw1iozcfC7kqungWTfbnHrvTNUfUmVhH0sA3BGzshpuslbQHg==
-
-turbo-darwin-arm64@1.9.6:
-  version "1.9.6"
-  resolved "https://registry.yarnpkg.com/turbo-darwin-arm64/-/turbo-darwin-arm64-1.9.6.tgz#852aa7c97f5688082df06607cbdf7b9623eff782"
-  integrity sha512-5f8ajEi8mOdAZ0AXavu/TzkHGEUi7tw+paefff7KK+XTUrdeyTlf8ULiTI+r97uH1jsYeTeL4JPu9IsEx+bL6g==
-
-turbo-linux-64@1.9.6:
-  version "1.9.6"
-  resolved "https://registry.yarnpkg.com/turbo-linux-64/-/turbo-linux-64-1.9.6.tgz#c716247e27a9e8a53ab240272cd189bf0d8a6f08"
-  integrity sha512-UrCDMl2Nqd/kxNEJonqvDg8nmZU4UggVQTmqcdYyuOiCA3H98jxggQqZh1VGeF23XDbCWHSQjnbkLeoUvQJWKw==
-
-turbo-linux-arm64@1.9.6:
-  version "1.9.6"
-  resolved "https://registry.yarnpkg.com/turbo-linux-arm64/-/turbo-linux-arm64-1.9.6.tgz#0c4aad0a502e79494d13775a81348d17bb9f581c"
-  integrity sha512-oOxAT6lNiMpYVZPWzFNsUvC2LQgKYyH4aBnkeoBnjuAUk8BK5AhUWSWl4QlfTcBWW4LnjDPeZQKrbnxvHhPVsw==
-
-turbo-windows-64@1.9.6:
-  version "1.9.6"
-  resolved "https://registry.yarnpkg.com/turbo-windows-64/-/turbo-windows-64-1.9.6.tgz#8852355f0ab51582cb85ba1393fe6a9b91773ee4"
-  integrity sha512-65UxLL1vb5RItzJYNerO5c+yPMzSnD+GvJxfBZIvAwSnb+4ulhPRHzQOYinVq4PZ2DosBZOorWPRf97POmhvog==
-
-turbo-windows-arm64@1.9.6:
-  version "1.9.6"
-  resolved "https://registry.yarnpkg.com/turbo-windows-arm64/-/turbo-windows-arm64-1.9.6.tgz#971e33503388ae53a6af7f4356ec579c604ef5f6"
-  integrity sha512-aF9VzYT+vaKNbZGDccN7AYrNhph4gr6yOFN7GtTr777IwS5FGW7evku7RScsua5r2HwVKvBO2WjyadpbXuoOOQ==
-
-turbo@^1.9.3:
-  version "1.9.6"
-  resolved "https://registry.yarnpkg.com/turbo/-/turbo-1.9.6.tgz#48924ba8afba760b5c4ff6a6e1c48129df338c38"
-  integrity sha512-mLbCIAYNbSm60kVhBiAr+YA1BYpPObS/y7rqw1hjh36ZdJDp35lUSeqdBs6oGt0Y4hnmN4ZeIXu8zMVRR03/vw==
+turbo@^2.0.0:
+  version "2.10.13"
+  resolved "https://registry.yarnpkg.com/turbo/-/turbo-2.10.13.tgz#6019bcc63eeaf9aace7b02401e2821c6ac1e19dc"
+  integrity sha512-69MkPbjk+G8oyC7pC2DeBk0rPdbLz51wuH5eAT0Q4BVJkzq/b1XM4kUUidsARbmDjwIELSJwd1ezITULY9kWNw==
   optionalDependencies:
-    turbo-darwin-64 "1.9.6"
-    turbo-darwin-arm64 "1.9.6"
-    turbo-linux-64 "1.9.6"
-    turbo-linux-arm64 "1.9.6"
-    turbo-windows-64 "1.9.6"
-    turbo-windows-arm64 "1.9.6"
+    "@turbo/darwin-64" "2.10.13"
+    "@turbo/darwin-arm64" "2.10.13"
+    "@turbo/linux-64" "2.10.13"
+    "@turbo/linux-arm64" "2.10.13"
+    "@turbo/windows-64" "2.10.13"
+    "@turbo/windows-arm64" "2.10.13"
 
 type-check@^0.4.0, type-check@~0.4.0:
   version "0.4.0"
